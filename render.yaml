@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: lego-photo-app
+    env: docker
+    plan: free
+    region: frankfurt
+    dockerComposeFilePath: ./docker-compose.yml
